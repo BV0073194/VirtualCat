@@ -3,6 +3,8 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: hidden; /* Prevents scrolling */
+    touch-action: none; /* Prevents touch scrolling */
+    -webkit-overflow-scrolling: auto; /* Disables momentum scrolling on iOS */
 }
 
 .grid-container {
